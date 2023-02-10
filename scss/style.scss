@@ -93,7 +93,7 @@ main {
 
     transition: color 250ms ease-in, background-color 250ms ease-in;
 
-    &:hover {
+    &:is(:hover, :focus) {
       background-color: var(--btn-clr);
       color: #f2f2f2;
     }
