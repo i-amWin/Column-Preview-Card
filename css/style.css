@@ -72,7 +72,7 @@ main {
   border-radius: 100vmax;
   transition: color 250ms ease-in, background-color 250ms ease-in;
 }
-.card__btn:hover {
+.card__btn:is(:hover, :focus) {
   background-color: var(--btn-clr);
   color: #f2f2f2;
 }
